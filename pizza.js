@@ -1,10 +1,5 @@
 class Pizza {
 
-    id;
-    code;
-    libelle;
-    prix;
-
     constructor(id, code, libelle, prix) {
         this.id = id;
         this.code = code;
@@ -12,3 +7,5 @@ class Pizza {
         this.prix = prix;
     }
 }
+
+module.exports = Pizza;
